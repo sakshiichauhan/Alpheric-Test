@@ -12,12 +12,14 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-    sourcemap: true,
+    emptyOutDir: true,
+    manifest: true,
     rollupOptions: {
-      output: {
-        manualChunks: undefined
-      }
+      input: './index.html'
     }
+  },
+  server: {
+    port: 3000,
+    strictPort: true
   }
 })
