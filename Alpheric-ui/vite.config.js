@@ -12,11 +12,8 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
-    emptyOutDir: true,
-    manifest: true,
-    rollupOptions: {
-      input: './index.html'
-    }
+    assetsDir: 'assets',
+    sourcemap: true
   },
   server: {
     port: 3000,
