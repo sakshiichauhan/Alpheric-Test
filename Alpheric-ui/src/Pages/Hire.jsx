@@ -65,25 +65,29 @@ const Hire = () => {
                         <CarouselCard
                             imageUrl={card1}
                             title="Validate Your Idea"
-                            description="Stay ahead with the latest in tech trends."
+                            description="Test your concept with real users, gather feedback, and ensure market demand before investing resources."
                             visitLink="https://example.com"
                         />
                         <CarouselCard
                             imageUrl={card2}
                             title="Build a Prototype"
-                            description="Stay ahead with the latest in tech trends."
+                            description="Quickly develop a functional prototype to refine your vision, attract early adopters, and validate feasibility.
+
+"
                             visitLink="https://example.com"
                         />
                         <CarouselCard
                             imageUrl={card3}
                             title="Create a Strategic Roadmap"
-                            description="Stay ahead with the latest in tech trends."
+                            description="Outline clear goals, timelines, and milestones to stay on track and scale effectively.
+
+"
                             visitLink="https://example.com"
                         />
                         <CarouselCard
                             imageUrl={card4}
                             title="Get Expert Mentorship"
-                            description="Stay ahead with the latest in tech trends."
+                            description="Gain insights from industry experts, avoid common pitfalls, and accelerate your journey to success."
                             visitLink="https://example.com"
                         />
                        
